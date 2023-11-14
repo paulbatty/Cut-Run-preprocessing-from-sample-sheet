@@ -1,6 +1,6 @@
 # CutnRun_pipeline_from_sample_sheet
 
-Pipeline written in bash that takes a sample sheet with parcodes and parses them to generate the output data
+Pipeline written in bash that takes a sample sheet with parcodes and parses them to generate the output data. Relative paths are used.
 
 # cutnrun_pipeline_from_sample_sheet >>> no merging
 - The pipeline is designed to be run on a scientific cluster using slurm. A sample sheet is provided with the unique barcodes for each file before the file ending. The sample sheet is a csv file with a single column, 'barcodes', and the unique barcodes found in the input directory containing the FastQ files to be analysed.
